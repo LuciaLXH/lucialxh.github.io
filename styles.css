@@ -15,8 +15,9 @@
 @media(max-width:400px){.header nav{gap:11px}.header nav .nav-contact{padding-inline:12px}.hero h1{font-size:60px}.hero-media{height:385px}.media-heading{font-size:22px}.media-water{top:90px}.media-payroll{top:209px}.hero-footnote{max-width:290px}.hero-copy{font-size:23px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
-/* Portrait replaces the project collage; preserve generous framing at each size. */
-.hero-portrait{margin:0;padding:0;height:530px;background:#e0d2ee}.hero-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
-@media(min-width:1450px){.hero-portrait{height:570px}}
-@media(max-width:1050px){.hero-portrait{height:480px}}
-@media(max-width:740px){.hero-portrait{height:auto;aspect-ratio:4/5;max-width:440px}.hero-portrait img{position:absolute;inset:0;object-position:50% 28%}}
+/* Keep the landscape photograph intact, including both hands and river. */
+.hero{grid-template-columns:.95fr 1.15fr;gap:52px}
+.hero-portrait{margin:0;padding:0;height:auto;aspect-ratio:3/2;background:#e0d2ee;border-radius:44px;min-width:0}
+.hero-portrait img{display:block;width:100%;height:100%;object-fit:contain}
+@media(max-width:1050px){.hero{gap:32px}.hero-portrait{border-radius:36px}}
+@media(max-width:740px){.hero{grid-template-columns:1fr;gap:32px}.hero-portrait{max-width:600px;border-radius:28px}}

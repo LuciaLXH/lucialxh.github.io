@@ -20,7 +20,7 @@ The prior Sites deployment remains a separate snapshot; future homepage edits sh
 
 ## Personal media
 
-The warm white and iris purple palette follows the owner's chosen design. The self-contained `.hero-media` section uses the owner's supplied graduation portrait, resized for the web with EXIF/XMP/IPTC metadata removed. CSS handles responsive framing; the original photograph is unchanged. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
+The warm white and iris purple palette follows the owner's chosen design. The self-contained `.hero-media` section uses the owner's selected riverside photograph, resized for the web with EXIF/XMP/IPTC metadata removed. A 3:2 responsive frame preserves the landscape composition, including both hands and the river; the original photograph is unchanged. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
 
 ## Asset attribution
 
@@ -28,4 +28,4 @@ Water preview: public NZ Water × Population dashboard, captured 12 October 2026
 
 The site has no database connection, analytics, contact form or private payroll data.
 
-Portrait: supplied by the portfolio owner for this homepage. The separate travel photograph has not been published.
+Homepage photograph: IMG_E2826.jpg, supplied and selected by the portfolio owner. The earlier graduation photo is no longer used on the homepage.
