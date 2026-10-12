@@ -20,7 +20,7 @@ The prior Sites deployment remains a separate snapshot; future homepage edits sh
 
 ## Personal media
 
-The warm white and iris purple palette follows the owner's chosen design. The self-contained `.hero-media` section uses the owner's selected riverside photograph, resized for the web with EXIF/XMP/IPTC metadata removed. A near-square 371:347 responsive frame follows the owner’s crop reference, trimming the left and right edges while retaining both raised hands and the river. The original photograph is unchanged. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
+The warm white and iris purple palette follows the owner's chosen design. The self-contained `.hero-media` section uses the owner's selected riverside photograph, resized for the web with EXIF/XMP/IPTC metadata removed. A 3:2 responsive frame preserves the landscape composition, including both hands and the river; the original photograph is unchanged. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
 
 ## Asset attribution
 
