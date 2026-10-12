@@ -20,10 +20,12 @@ The prior Sites deployment remains a separate snapshot; future homepage edits sh
 
 ## Personal media
 
-The cream and cobalt palette follows the owner's chosen design. The self-contained `.hero-media` section currently uses project screenshots and can be replaced with an owner-supplied portrait. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
+The warm white and iris purple palette follows the owner's chosen design. The self-contained `.hero-media` section uses the owner's supplied graduation portrait, resized for the web with EXIF/XMP/IPTC metadata removed. CSS handles responsive framing; the original photograph is unchanged. A future introduction video should be under three minutes, with a poster, click-to-play controls, captions/transcript and deferred loading. No video is included yet.
 
 ## Asset attribution
 
 Water preview: public NZ Water × Population dashboard, captured 12 October 2026. Data: Stats NZ (CC BY 4.0), Taumata Arowai NEPR (CC BY 3.0 NZ); see the linked repository for full methods and attribution. Payroll preview: the project's public English demo, fictional data only. Fonts: DM Sans and DM Serif Display via Google Fonts, with system fallbacks.
 
 The site has no database connection, analytics, contact form or private payroll data.
+
+Portrait: supplied by the portfolio owner for this homepage. The separate travel photograph has not been published.
