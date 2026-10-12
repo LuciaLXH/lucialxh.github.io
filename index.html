@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#264cf5">
+  <title>Xiaohan (Lucia) Liu — Data & Development</title>
+  <meta name="description" content="Selected work by Xiaohan (Lucia) Liu: a New Zealand water data dashboard and a client-informed bakery payroll workspace. Explore the live projects, methods and code.">
+  <meta property="og:title" content="Xiaohan (Lucia) Liu — Data & Development">
+  <meta property="og:description" content="From real-world questions to clear analysis and useful software. Explore two live projects and the thinking behind them.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucialxh.github.io/">
+  <link rel="canonical" href="https://lucialxh.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="wordmark" href="#" aria-label="Lucia Liu, back to top">Lucia<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#work">Projects <span>02</span></a><a href="#about">About</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <p class="eyebrow">Xiaohan (Lucia) Liu / Data & Development</p>
+        <h1 id="hero-title">Hey, I'm<br><em>Lucia.</em></h1>
+        <p class="hero-copy">I turn complex data into clear insights and useful digital tools.</p>
+        <a class="button button-dark hero-button" href="#work">Explore my projects <span aria-hidden="true">↘</span></a>
+        <p class="hero-footnote">Python & SQL <span aria-hidden="true">/</span> From questions to working solutions</p>
+      </div>
+      <!-- Replace this self-contained media area with the owner's portrait when supplied. -->
+      <aside class="hero-media" aria-label="A preview of my two projects">
+        <div class="media-heading"><span>Ideas, made practical.</span><span aria-hidden="true">↗</span></div>
+        <a class="media-card media-water" href="#water-title" aria-label="Read about NZ Water and Population">
+          <div class="media-card-label"><span>01 / EXPLORE THE DATA</span><span aria-hidden="true">↗</span></div>
+          <img src="assets/water-dashboard.png" width="1280" height="720" alt="NZ water demand and population charts.">
+        </a>
+        <a class="media-card media-payroll" href="#payroll-title" aria-label="Read about Union Bakery Payroll">
+          <div class="media-card-label"><span>02 / BUILD SOMETHING USEFUL</span><span aria-hidden="true">↗</span></div>
+          <img src="assets/payroll-workspace.png" width="1280" height="720" alt="Union Bakery workspace with fictional payroll data.">
+        </a>
+      </aside>
+    </section>
+    <section id="work" class="work wrap" aria-labelledby="work-title">
+      <div class="section-heading"><h2 id="work-title">Selected work<span aria-hidden="true">.</span></h2><p>Two problems.<br>Two working solutions. <span aria-hidden="true">↙</span></p></div>
+      <article class="project" aria-labelledby="water-title">
+        <div class="project-copy">
+          <p class="eyebrow project-index">01 / DATA ANALYSIS & VISUALISATION</p>
+          <h3 id="water-title">NZ Water<br>× Population</h3>
+          <p class="project-lead">Where could population growth put water supplies under pressure?</p>
+          <p>Bringing population, water-network and river-flow data together to explore demand and efficiency across six New Zealand regions.</p>
+          <ul class="tags" aria-label="Water dashboard technologies"><li>Python</li><li>DuckDB / SQL</li><li>ECharts</li><li>Leaflet</li></ul>
+          <div class="project-actions"><a class="button button-dark" href="https://lucialxh.github.io/nz-data-dashboard/" target="_blank" rel="noopener noreferrer">Explore dashboard <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a class="text-link" href="https://github.com/LuciaLXH/nz-data-dashboard" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div>
+        </div>
+        <div class="project-visual water-visual">
+          <div class="preview-top"><span><i></i> Interactive dashboard</span><span>NZ / 06 regions</span></div>
+          <a class="image-link" href="https://lucialxh.github.io/nz-data-dashboard/" target="_blank" rel="noopener noreferrer" aria-label="Open NZ Water dashboard in a new tab"><img src="assets/water-dashboard.png" width="1280" height="720" alt="Water dashboard showing per-capita supply compared with population growth, and current versus projected water demand."></a>
+          <p class="visual-caption">A common view of demand, leakage and population growth.</p>
+        </div>
+        <details class="case-notes"><summary><span>Behind the project</span><span class="summary-hint">Methods, decisions & limitations</span><span class="plus" aria-hidden="true">+</span></summary>
+          <div class="case-grid"><div><h4>The question</h4><p>How can council planners compare demand growth and network efficiency when the evidence comes from different sources?</p></div><div><h4>My contribution</h4><p>Built the Python ingestion pipeline, SQL transformations, interactive charts and map, data validation, and automated GitHub Actions deployment.</p></div><div><h4>A deliberate boundary</h4><p>Projections are scenarios, not forecasts. Regional estimates use different network coverage; some river-flow records are historical. These limits are documented alongside the analysis.</p></div></div>
+          <a class="text-link" href="https://github.com/LuciaLXH/nz-data-dashboard/blob/main/ANALYSIS.md" target="_blank" rel="noopener noreferrer">Read the analysis and caveats ↗<span class="sr-only"> (opens in a new tab)</span></a>
+        </details>
+      </article>
+      <article class="project" aria-labelledby="payroll-title">
+        <div class="project-copy">
+          <p class="eyebrow project-index">02 / BUSINESS APPLICATION</p>
+          <h3 id="payroll-title">Union Bakery<br>Payroll Workspace</h3>
+          <p class="project-lead">From a spreadsheet to a clearer monthly payroll workflow.</p>
+          <p>A bakery owner's feedback shaped the employee records, attendance entry, calculation history and exports. Try the English demo with fictional staff data.</p>
+          <ul class="tags" aria-label="Payroll technologies"><li>Python</li><li>Streamlit</li><li>PostgreSQL</li><li>Render</li></ul>
+          <div class="project-actions"><a class="button button-dark" href="https://union-bakery-payroll-portfolio.onrender.com" target="_blank" rel="noopener noreferrer">Try the payroll demo <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a class="text-link" href="https://github.com/LuciaLXH/Union-bakery-payroll" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div>
+          <p class="demo-note">Fictional data · Your changes stay in your session.<br>The demo may take a moment to wake up.</p>
+        </div>
+        <div class="project-visual payroll-visual">
+          <div class="preview-top"><span><i></i> English public demo</span><span>UNION BAKERY</span></div>
+          <a class="image-link" href="https://union-bakery-payroll-portfolio.onrender.com" target="_blank" rel="noopener noreferrer" aria-label="Open bakery payroll demo in a new tab"><img src="assets/payroll-workspace.png" width="1280" height="720" loading="lazy" alt="English Union Bakery payroll workspace with monthly workflow steps and fictional employee records."></a>
+          <p class="visual-caption">A practical workflow, refined through owner feedback.</p>
+        </div>
+        <details class="case-notes"><summary><span>Behind the project</span><span class="summary-hint">Requirements, architecture & demo</span><span class="plus" aria-hidden="true">+</span></summary>
+          <div class="case-grid"><div><h4>The problem</h4><p>The original import template did not match the owner's payroll sheet. Limited access to real data made concrete examples and feedback essential.</p></div><div><h4>My contribution</h4><p>Translated owner requirements into calculation rules, a five-table PostgreSQL schema, monthly pay snapshots, version history, tests and an editable web interface.</p></div><div><h4>How to try it</h4><p>Change an attendance entry, save and calculate, then inspect the result and history. The public demo reuses the Python calculation engine with session-only storage; the separate owner test uses PostgreSQL.</p></div></div>
+          <p class="case-footnote">CNY and bakery-specific rules. This is a workflow demonstration, not a New Zealand payroll compliance product. No payments or emails are sent.</p>
+          <a class="text-link" href="https://github.com/LuciaLXH/Union-bakery-payroll/blob/main/docs/portfolio-case-study.md" target="_blank" rel="noopener noreferrer">Read the full case study ↗<span class="sr-only"> (opens in a new tab)</span></a>
+        </details>
+      </article>
+    </section>
+    <section id="about" class="about wrap" aria-labelledby="about-title">
+      <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2 id="about-title">Curious about the question.<br><em>Careful with the answer.</em></h2></div>
+      <div class="about-copy"><p>I'm Xiaohan — also known as Lucia. My background is in Applied Data Science at the University of Canterbury.</p><p>I enjoy the work between a question and a usable result: understanding requirements, working through messy data, checking assumptions, and building a clear way for someone to act on the answer.</p><p>These projects bring that approach to two different settings: public infrastructure data and the day-to-day needs of a small business.</p><a class="text-link" href="https://github.com/LuciaLXH" target="_blank" rel="noopener noreferrer">More of my work on GitHub ↗<span class="sr-only"> (opens in a new tab)</span></a></div>
+    </section>
+    <section id="contact" class="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">Have a question<br>about my work?</h2><p>I'd be happy to talk through the projects and the decisions behind them.</p></div><a class="button button-light" href="https://www.linkedin.com/in/xiaohan-liu-755017382" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div></section>
+  </main>
+  <footer class="wrap footer"><p>© 2026 Xiaohan (Lucia) Liu</p><p>Built with curiosity. Grounded in evidence.</p><a href="#">Back to top ↑</a></footer>
+</body>
+</html>
